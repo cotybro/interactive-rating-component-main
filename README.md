@@ -25,12 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screencapture-127-0-0-1-5500-Frontend-Mentor-Interactive-Rating-Component-interactive-rating-component-main-interactive-rating-component-main-2023-02-06-05_03_36](https://user-images.githubusercontent.com/36529826/216956149-5fd03197-2498-412f-aedc-5cf6947900d9.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/cotybro/interactive-rating-component-main)
+- Live Site URL: [live site URL here](https://interactive-rating-component-main-gray.vercel.app/)
 
 ## My process
 
