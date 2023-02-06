@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background: #131518;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ---------- Typography ---------- */
+
+.component-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.component-text,
+.component2-text {
+    font-weight: 400;
+    line-height: 1.6 rem;
+    color: #969FAD;
+}
+
+.component2-text {
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+.rating-text {
+    color: #FC7614;
+    background: #262E38;
+    padding: .266rem 1.333rem;
+    border-radius: 1.5rem;
+    line-height: 1.6rem;
+}
+
+.thanks-text {
+    font-size: 1.866rem;
+    color: #ffffff;
+}
+
+.btn-rating {
+    font-size: .9375 rem;
+    font-weight: 700;
+    color: #969FAD;
+    line-height: 1.6rem;
+}
+
+#submit {
+    font-weight: 700;
+    color: #FC7614;
+    line-height: 1.266rem;
+    letter-spacing: 2px;
+}
+
+/* ---------- Layout ---------- */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main {
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    max-width: 412px;
+}
+
+.container {
+    padding: 2.133rem;
+}
+
+.star-img {
+    background: #262E38;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.component-title {
+    margin-bottom: 1rem;
+}
+
+.component-text {
+    margin-bottom: 1.6rem;
+}
+
+.transition {
+    transition: all 0.15s ease-in;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-rating {
+    border: none;
+    border-radius: 50%;
+    padding: .8666rem 1.4666rem;
+    background: #262E38;
+    cursor: pointer;
+    margin-bottom: 2.133rem;
+}
+
+.btn-rating:hover {
+    background: #7C8798;
+    color: #ffffff;
+}
+
+.btn-rating:active,
+ .btn-rating:focus {
+    background: #FC7614;
+    color: #ffffff;
+}
+
+#submit {
+    background: #FC7614;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#submit:hover,
+ #submit:focus {
+    background: #ffffff;
+    color: #FC7614;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container2 {
+    padding: 1rem 2.3rem;
+    text-align: center;
+}
+
+.thanks-img,
+.rating-text {
+    margin-bottom: 2.133rem;
+}
+
+.thanks-text{
+    margin-bottom: 1rem;
+}
